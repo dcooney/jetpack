@@ -83,8 +83,8 @@ jQuery( function( $ ) {
 
 		$( '#css-mode-select' ).slideUp();
 		$( '#css-mode-display' ).text(
-			$( 'input[name=add_to_existing_display]:checked' ).val() == 'true' ? 'Add-on' : 'Replacement'
-		); // jshint ignore:line
+			$( 'input[name=add_to_existing_display]:checked' ).val() == 'true' ? 'Add-on' : 'Replacement' // jshint ignore:line
+		);
 		$( '#add_to_existing' ).val( $( 'input[name=add_to_existing_display]:checked' ).val() );
 		$( '.edit-css-mode' ).show();
 	} );
